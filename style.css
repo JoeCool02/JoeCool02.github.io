@@ -95,13 +95,13 @@ footer {
 .footer_link:hover{
     animation-name: button_hover;
     animation-duration: 500ms;
-    animation-fill-mode: forwards;
+    animation-fill-mode:forwards;
 }
 
 @keyframes button_hover {
-    /* 50% {
-        transform: scale(1.1);
-    } */
+    50% {
+        transform: scale(1.05);
+    }
     100% {
         background-color: blue;
         color: white;
