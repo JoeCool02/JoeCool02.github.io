@@ -1,12 +1,11 @@
 :root {
-    --content_flow: grid;
+    --content_flow: row;
 }
 
 @media (max-width: 1160px) {
     :root {
-        --content_flow: flex;
-    }
-    
+        --content_flow: column-reverse;
+    }  
 }
 
 body {
@@ -62,8 +61,8 @@ main {
 
 #main_content_container{
     margin: auto;
-    display: var(--content_flow);
-    flex-direction: column-reverse;
+    display: flex;
+    flex-direction: var(--content_flow);
     grid-template-columns: 50% 50%;
     justify-content: center;
 }
@@ -100,8 +99,10 @@ main {
 
 footer {
     width: 100%;
+    margin: auto;
     display: flex;
     justify-content: center;
+    flex-direction: var(--content_flow);
 }
 
 .footer_link {
