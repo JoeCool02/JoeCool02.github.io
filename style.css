@@ -33,6 +33,12 @@ nav {
     justify-content: flex-end;
 }
 
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
 .nav-link {
     width: 10em;
     padding: 10px;
