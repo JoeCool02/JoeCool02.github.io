@@ -17,27 +17,6 @@
         </a>
     </nav>
 
-    <footer id="footer">
-        <a href="https://twitter.com/JoeCool2002" target="_blank">
-            <div class="footer_link"><img class="icons" src="img/twitter.png" /></div>
-        </a>
-        <a href="https://github.com/JoeCool02" target="_blank">
-            <div class="footer_link"><img class="icons" src="img/github.png" /></div>
-        </a>
-        <a href="https://app.ens.domains/name/joedev.eth" target="_blank">
-            <div class="footer_link"><img class="icons" src="img/ENS.png" /></div>
-        </a>
-        <a href="https://www.facebook.com/josef.peterson" target="_blank">
-            <div class="footer_link"><img class="icons" src="img/facebook.png" /></div>
-        </a>
-        <a href="https://www.instagram.com/joecool02/" target="_blank">
-            <div class="footer_link"><img class="icons" src="img/instagram.png" /></div>
-        </a>
-        <a href="https://codepen.io/JoeCool02" target="_blank">
-            <div class="footer_link"><img class="icons" src="img/Codepen.png" /></div>
-        </a>
-    </footer>
-
     <main>
         <div id="main_content_container">
             <div id="main_content">
@@ -93,6 +72,25 @@
         </div>
     </main>
 
-
+    <footer id="footer">
+        <a href="https://twitter.com/JoeCool2002" target="_blank">
+            <div class="footer_link"><img class="icons" src="img/twitter.png" /></div>
+        </a>
+        <a href="https://github.com/JoeCool02" target="_blank">
+            <div class="footer_link"><img class="icons" src="img/github.png" /></div>
+        </a>
+        <a href="https://app.ens.domains/name/joedev.eth" target="_blank">
+            <div class="footer_link"><img class="icons" src="img/ENS.png" /></div>
+        </a>
+        <a href="https://www.facebook.com/josef.peterson" target="_blank">
+            <div class="footer_link"><img class="icons" src="img/facebook.png" /></div>
+        </a>
+        <a href="https://www.instagram.com/joecool02/" target="_blank">
+            <div class="footer_link"><img class="icons" src="img/instagram.png" /></div>
+        </a>
+        <a href="https://codepen.io/JoeCool02" target="_blank">
+            <div class="footer_link"><img class="icons" src="img/Codepen.png" /></div>
+        </a>
+    </footer>
 
 </body>

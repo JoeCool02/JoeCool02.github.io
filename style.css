@@ -5,15 +5,11 @@
 @media (max-width: 1160px) {
     :root {
         --content_flow: column-reverse;
-    }  
+    }
 }
 
 body {
-    background-image: linear-gradient(
-        135deg,
-        rgba(0, 102, 255, 0.021),
-        rgba(0, 162, 255, 0.555)      
-    );
+
     padding: 0px;
     margin: 0px;
 }
@@ -30,7 +26,9 @@ a {
 }
 
 nav {
-    background: white;
+    background-image: linear-gradient(305deg,
+            rgba(0, 102, 255, 0.021),
+            rgba(0, 162, 255, 0.555));
     margin-bottom: 20px;
     display: flex;
     justify-content: flex-end;
@@ -56,10 +54,10 @@ main {
     background-color: white;
     margin: 20px 100px 20px 100px;
     border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
-#main_content_container{
+#main_content_container {
     margin: auto;
     display: flex;
     flex-direction: var(--content_flow);
@@ -67,7 +65,7 @@ main {
     justify-content: center;
 }
 
-#main_content{
+#main_content {
     margin: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -86,13 +84,13 @@ main {
     justify-content: center;
 }
 
-#profile_image{
+#profile_image {
     margin: 20px;
     width: 100%;
     height: auto;
 }
 
-.icons{
+.icons {
     width: 50px;
     height: 50px;
 }
@@ -112,18 +110,24 @@ footer {
     width: 10em;
 }
 
-.footer_link:hover{
+.footer_link:hover {
     animation-name: button_hover;
     animation-duration: 500ms;
-    animation-fill-mode:forwards;
+    animation-fill-mode: forwards;
 }
 
 @keyframes button_hover {
     50% {
         transform: scale(1.05);
+        background-image: linear-gradient(45deg,
+                rgba(0, 102, 255, 0.021),
+                rgba(0, 162, 255, 0.555));
     }
+
     100% {
-        background-color: blue;
         color: white;
+        background-image: linear-gradient(45deg,
+                rgba(0, 102, 255, 0.021),
+                rgba(0, 162, 255, 0.555));
     }
 }
