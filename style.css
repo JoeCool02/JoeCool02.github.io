@@ -37,7 +37,6 @@ img {
     height: 100%;
     width: 100%;
     object-fit: contain;
-    padding: 20px;
 }
 
 .nav-link {
@@ -85,6 +84,7 @@ main {
 
 #image_container {
     display: flex;
+    padding: 40px;
     /* justify-content: center; */
 }
 
